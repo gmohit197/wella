@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1837E035213936EA002F9E69 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E028213936DC002F9E69 /* splash.png */; };
+		1837E036213936EA002F9E69 /* login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E029213936DD002F9E69 /* login@2x.png */; };
+		1837E037213936EA002F9E69 /* tynor_glassy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E02A213936DE002F9E69 /* tynor_glassy.png */; };
+		1837E038213936EA002F9E69 /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E02B213936E0002F9E69 /* user_icon.png */; };
+		1837E039213936EA002F9E69 /* glassi_effect_tynor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E02C213936E1002F9E69 /* glassi_effect_tynor.png */; };
+		1837E03A213936EA002F9E69 /* menubar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E02D213936E2002F9E69 /* menubar_bg.png */; };
+		1837E03B213936EA002F9E69 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E02E213936E3002F9E69 /* background.png */; };
+		1837E03C213936EA002F9E69 /* internal_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E02F213936E3002F9E69 /* internal_background.png */; };
+		1837E03D213936EA002F9E69 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1837E030213936E5002F9E69 /* logo.jpg */; };
+		1837E03E213936EA002F9E69 /* navbg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1837E031213936E6002F9E69 /* navbg.PNG */; };
+		1837E03F213936EA002F9E69 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E032213936E7002F9E69 /* app_icon.png */; };
+		1837E040213936EA002F9E69 /* right_angle_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E033213936E8002F9E69 /* right_angle_img.png */; };
+		1837E041213936EA002F9E69 /* password_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837E034213936E8002F9E69 /* password_icon.png */; };
+		1837E04321393D41002F9E69 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837E04221393D41002F9E69 /* profileViewController.swift */; };
+		1837E04521395974002F9E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1837E04421395970002F9E69 /* LaunchScreen.storyboard */; };
+		1865AA81213BC93E00DF5157 /* mystylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865AA80213BC93E00DF5157 /* mystylistViewController.swift */; };
+		1870E6F5214BDD4500036200 /* DatabaseConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870E6F4214BDD4400036200 /* DatabaseConnection.swift */; };
+		1877AC4321352C0B00B5B7B4 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1877AC4221352C0B00B5B7B4 /* Charts.framework */; };
+		1877AC4521352C0B00B5B7B4 /* ChartsRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1877AC4421352C0B00B5B7B4 /* ChartsRealm.framework */; };
+		187D61D02129EAE8004E8B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D61CF2129EAE8004E8B6C /* AppDelegate.swift */; };
+		187D61D22129EAE8004E8B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D61D12129EAE8004E8B6C /* ViewController.swift */; };
+		187D61D52129EAE8004E8B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187D61D32129EAE8004E8B6C /* Main.storyboard */; };
+		187D61D72129EAF1004E8B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187D61D62129EAF1004E8B6C /* Assets.xcassets */; };
+		187D82DF2139CE6600D78905 /* DTRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D82DE2139CE6600D78905 /* DTRViewController.swift */; };
+		187D82E32139CEAF00D78905 /* MyworkshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D82E22139CEAF00D78905 /* MyworkshopViewController.swift */; };
+		187D82E52139CEC700D78905 /* MyinsalonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D82E42139CEC700D78905 /* MyinsalonViewController.swift */; };
+		187D82E72139D3E300D78905 /* stylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D82E62139D3E300D78905 /* stylistViewController.swift */; };
+		187D82E92139DBEC00D78905 /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D82E82139DBEC00D78905 /* calendarViewController.swift */; };
+		187D82EB2139EACE00D78905 /* customCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D82EA2139EACE00D78905 /* customCollectionViewCell.swift */; };
+		187D82ED2139EC6800D78905 /* tempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D82EC2139EC6800D78905 /* tempViewController.swift */; };
+		18BE9F0521492A11002A9AF2 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE9F0421492A10002A9AF2 /* DashboardTableViewCell.swift */; };
+		18BE9F09214930C3002A9AF2 /* dashboardlistdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE9F08214930C3002A9AF2 /* dashboardlistdata.swift */; };
+		18CB447D212D43B000EF7032 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB447C212D43B000EF7032 /* menuViewController.swift */; };
+		18CB447F212D43C400EF7032 /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB447E212D43C400EF7032 /* menuTableViewCell.swift */; };
+		18CB4483212D47D600EF7032 /* dashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB4482212D47D600EF7032 /* dashboardViewController.swift */; };
+		18D2C07E2154C0CB002EB013 /* addStylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2C07D2154C0CB002EB013 /* addStylist.swift */; };
+		D820267E21803F3A005042AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D820267D21803F3A005042AB /* GoogleService-Info.plist */; };
+		D8202683218079C4005042AB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8202682218079C4005042AB /* NotificationController.swift */; };
+		D8204FCC21660805007BF517 /* workshoplistdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8204FCB21660805007BF517 /* workshoplistdata.swift */; };
+		D8257AF0215E760B00993DEE /* Dtrlistcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8257AEF215E760B00993DEE /* Dtrlistcell.swift */; };
+		D8257AF2215E771C00993DEE /* dtrlistdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8257AF1215E771C00993DEE /* dtrlistdata.swift */; };
+		D82586AE21677F8600ED5785 /* Salontracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82586AD21677F8600ED5785 /* Salontracking.swift */; };
+		D8277304214FB473008A8032 /* BaseActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8277303214FB473008A8032 /* BaseActivity.swift */; };
+		D8277306214FCC34008A8032 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8277305214FCC34008A8032 /* Constants.swift */; };
+		D82F1110215B72A8000A2823 /* Maxlength.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82F110F215B72A8000A2823 /* Maxlength.swift */; };
+		D85250A3215CE5FF00A51F85 /* ExecuteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85250A2215CE5FF00A51F85 /* ExecuteApi.swift */; };
+		D85AD91222816297001871DF /* Dtrcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85AD91122816297001871DF /* Dtrcell.swift */; };
+		D85AD91422817090001871DF /* InsideDtradapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85AD91322817090001871DF /* InsideDtradapter.swift */; };
+		D864DFB8216B8B9D006D8B48 /* splashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864DFB7216B8B9D006D8B48 /* splashViewController.swift */; };
+		D864DFBA216B8F7F006D8B48 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864DFB9216B8F7F006D8B48 /* UIImage+Gif.swift */; };
+		D86550C721687E7A00262740 /* salontrackinglistdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86550C621687E7A00262740 /* salontrackinglistdata.swift */; };
+		D86550C921687EDE00262740 /* salontrackingcellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86550C821687EDE00262740 /* salontrackingcellTableViewCell.swift */; };
+		D86EA47825F6381C009344DF /* MarketVisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86EA47725F6381C009344DF /* MarketVisitViewController.swift */; };
+		D86F282D215FA2BF00E6574E /* MyStylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F282C215FA2BF00E6574E /* MyStylistCell.swift */; };
+		D86F282F215FA3B200E6574E /* MyStylistCelldata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F282E215FA3B200E6574E /* MyStylistCelldata.swift */; };
+		D870988B25ECCEDE003CE734 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D870988A25ECCEDE003CE734 /* HomeViewController.swift */; };
+		D870988E25ED1153003CE734 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D870988D25ED1153003CE734 /* CardView.swift */; };
+		D87430EE2613384E0027B8EA /* newicon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D87430ED2613384D0027B8EA /* newicon.jpeg */; };
+		D874C2E425FCAA6300CC4916 /* MyVirtualTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874C2E325FCAA6300CC4916 /* MyVirtualTrainingViewController.swift */; };
+		D874C2E625FCAAEB00CC4916 /* VirtualHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874C2E525FCAAEB00CC4916 /* VirtualHeaderTableViewCell.swift */; };
+		D874C2E825FCAB1A00CC4916 /* VirtualLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874C2E725FCAB1A00CC4916 /* VirtualLineTableViewCell.swift */; };
+		D874C2EA25FCAB4400CC4916 /* VirtualHeaderAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874C2E925FCAB4400CC4916 /* VirtualHeaderAdapter.swift */; };
+		D874C2EC25FCAB5900CC4916 /* VirtualLineAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874C2EB25FCAB5900CC4916 /* VirtualLineAdapter.swift */; };
+		D8760DED2600837D006ABE62 /* WorkshopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8760DEC2600837C006ABE62 /* WorkshopTableViewCell.swift */; };
+		D8760DEF260084A2006ABE62 /* WorkshopListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8760DEE260084A2006ABE62 /* WorkshopListAdapter.swift */; };
+		D8764D8E25CA7046009DFC54 /* HotDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8764D8D25CA7046009DFC54 /* HotDayViewController.swift */; };
+		D87FBB8725F73A0100FB416B /* MyInSalonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87FBB8625F73A0100FB416B /* MyInSalonViewController.swift */; };
+		D87FF75625CBFDBC004BF50A /* HotDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87FF75525CBFDBC004BF50A /* HotDayCell.swift */; };
+		D883253925F53A130042355C /* HotDayListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883253825F53A130042355C /* HotDayListAdapter.swift */; };
+		D883892F2611C472004E7200 /* PlannedForWorkshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883892E2611C472004E7200 /* PlannedForWorkshopViewController.swift */; };
+		D88A9020260D0BE400D8A174 /* DIYCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A901F260D0BE400D8A174 /* DIYCalendarCell.swift */; };
+		D89313F92611E12700F5CB0E /* PlannnedInSalonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89313F82611E12700F5CB0E /* PlannnedInSalonViewController.swift */; };
+		D89376AC25D691DD0088F2D3 /* EditStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89376AB25D691DD0088F2D3 /* EditStylistViewController.swift */; };
+		D8949B662601BFC60058F174 /* FSCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8949B652601BFC60058F174 /* FSCalendarViewController.swift */; };
+		D8971DDE25F7C09F004D8BCA /* CalendarNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8971DDD25F7C09F004D8BCA /* CalendarNewViewController.swift */; };
+		D8971DE025F7EA65004D8BCA /* InSalonWorkshopHeaderAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8971DDF25F7EA65004D8BCA /* InSalonWorkshopHeaderAdapter.swift */; };
+		D8971DE225F7EA84004D8BCA /* InSalonLineAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8971DE125F7EA84004D8BCA /* InSalonLineAdapter.swift */; };
+		D8971DE425F7EAAF004D8BCA /* InSalonHeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8971DE325F7EAAF004D8BCA /* InSalonHeaderTableView.swift */; };
+		D8971DE625F7EAEC004D8BCA /* InSalonLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8971DE525F7EAEC004D8BCA /* InSalonLineTableViewCell.swift */; };
+		D897F34125FBF76C003DA84C /* MyWorkshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897F34025FBF76C003DA84C /* MyWorkshopViewController.swift */; };
+		D898911526109EC300A51B15 /* PlannedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898911426109EC300A51B15 /* PlannedTableViewCell.swift */; };
+		D89891172610A8BA00A51B15 /* PlannedListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89891162610A8BA00A51B15 /* PlannedListAdapter.swift */; };
+		D89C594C25BBF97300CC25A7 /* MyActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89C594B25BBF97300CC25A7 /* MyActivity.swift */; };
+		D89F8F492164919A00B4C9CB /* workshopcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F8F482164919A00B4C9CB /* workshopcell.swift */; };
+		D8A0FE9726035D4E0016551C /* ProdListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0FE9626035D4E0016551C /* ProdListAdapter.swift */; };
+		D8A0FE9926035E780016551C /* UnProdListadapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0FE9826035E780016551C /* UnProdListadapter.swift */; };
+		D8A0FE9B260366B30016551C /* ProductiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0FE9A260366B30016551C /* ProductiveTableViewCell.swift */; };
+		D8A0FE9D260367220016551C /* UnProductiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0FE9C260367220016551C /* UnProductiveTableViewCell.swift */; };
+		D8A0FE9F2603B5DB0016551C /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0FE9E2603B5DB0016551C /* MyProfileViewController.swift */; };
+		D8A5E86D25F249CF00574B36 /* AddStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E86C25F249CE00574B36 /* AddStylistViewController.swift */; };
+		D8AD8C5625FF9F4F009DB31E /* CalendarPlannedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD8C5525FF9F4F009DB31E /* CalendarPlannedViewController.swift */; };
+		D8BC74532170650400B37B7E /* systemconfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC74522170650400B37B7E /* systemconfiguration.swift */; };
+		D8C19CFE21BFD6FB00C63889 /* ReturnCatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C19CFD21BFD6FB00C63889 /* ReturnCatcher.swift */; };
+		D8C9C82C26CFABCA00AF4FDB /* Dropdowns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82F1111215B9B83000A2823 /* Dropdowns.framework */; };
+		D8DF1AEA2606654400F5E203 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DF1AE92606654400F5E203 /* SwiftyJSON.swift */; };
+		D8EEB89C25F09D4C006B8462 /* SalonTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EEB89B25F09D4C006B8462 /* SalonTrackingViewController.swift */; };
+		D8EEB8A025F0E99D006B8462 /* SalonList1Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EEB89F25F0E99D006B8462 /* SalonList1Adapter.swift */; };
+		D8EEB8A225F0EAAC006B8462 /* SalonList2Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EEB8A125F0EAAC006B8462 /* SalonList2Adapter.swift */; };
+		D8EEB8A425F0EAF6006B8462 /* SalonList1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EEB8A325F0EAF6006B8462 /* SalonList1TableViewCell.swift */; };
+		D8EEB8A625F0EB0B006B8462 /* SalonList2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EEB8A525F0EB0B006B8462 /* SalonList2TableViewCell.swift */; };
+		D8F12EF621AF00F100813BED /* Deviceinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F12EF521AF00F100813BED /* Deviceinfo.swift */; };
+		D8F90F7424C809C500FDC828 /* IOSdropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F90F7324C809C500FDC828 /* IOSdropdown.swift */; };
+		EDB8496B8DDA5B32556BFB61 /* Pods_Wella_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0578DDEA555B506DB1981DC /* Pods_Wella_2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1837E028213936DC002F9E69 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		1837E029213936DD002F9E69 /* login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login@2x.png"; sourceTree = "<group>"; };
+		1837E02A213936DE002F9E69 /* tynor_glassy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tynor_glassy.png; sourceTree = "<group>"; };
+		1837E02B213936E0002F9E69 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_icon.png; sourceTree = "<group>"; };
+		1837E02C213936E1002F9E69 /* glassi_effect_tynor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glassi_effect_tynor.png; sourceTree = "<group>"; };
+		1837E02D213936E2002F9E69 /* menubar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubar_bg.png; sourceTree = "<group>"; };
+		1837E02E213936E3002F9E69 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1837E02F213936E3002F9E69 /* internal_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = internal_background.png; sourceTree = "<group>"; };
+		1837E030213936E5002F9E69 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		1837E031213936E6002F9E69 /* navbg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbg.PNG; sourceTree = "<group>"; };
+		1837E032213936E7002F9E69 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		1837E033213936E8002F9E69 /* right_angle_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_angle_img.png; sourceTree = "<group>"; };
+		1837E034213936E8002F9E69 /* password_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_icon.png; sourceTree = "<group>"; };
+		1837E04221393D41002F9E69 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		1837E04421395970002F9E69 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1865AA80213BC93E00DF5157 /* mystylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mystylistViewController.swift; sourceTree = "<group>"; };
+		1870E6F4214BDD4400036200 /* DatabaseConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseConnection.swift; sourceTree = "<group>"; };
+		1877AC3F21352B1200B5B7B4 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1877AC4221352C0B00B5B7B4 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1877AC4421352C0B00B5B7B4 /* ChartsRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ChartsRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187D61CC2129EAE8004E8B6C /* WellaEducation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellaEducation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187D61CF2129EAE8004E8B6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187D61D12129EAE8004E8B6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187D61D42129EAE8004E8B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187D61D62129EAF1004E8B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187D61DB2129EAF1004E8B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187D82DE2139CE6600D78905 /* DTRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTRViewController.swift; sourceTree = "<group>"; };
+		187D82E22139CEAF00D78905 /* MyworkshopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyworkshopViewController.swift; sourceTree = "<group>"; };
+		187D82E42139CEC700D78905 /* MyinsalonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyinsalonViewController.swift; sourceTree = "<group>"; };
+		187D82E62139D3E300D78905 /* stylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stylistViewController.swift; sourceTree = "<group>"; };
+		187D82E82139DBEC00D78905 /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
+		187D82EA2139EACE00D78905 /* customCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCollectionViewCell.swift; sourceTree = "<group>"; };
+		187D82EC2139EC6800D78905 /* tempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempViewController.swift; sourceTree = "<group>"; };
+		18BE9F0421492A10002A9AF2 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		18BE9F08214930C3002A9AF2 /* dashboardlistdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardlistdata.swift; sourceTree = "<group>"; };
+		18CB447C212D43B000EF7032 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		18CB447E212D43C400EF7032 /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
+		18CB4482212D47D600EF7032 /* dashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardViewController.swift; sourceTree = "<group>"; };
+		18D2C07D2154C0CB002EB013 /* addStylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addStylist.swift; sourceTree = "<group>"; };
+		339CC10BDDC6E4012BC5B88A /* Pods-Wella.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wella.2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wella.2/Pods-Wella.2.release.xcconfig"; sourceTree = "<group>"; };
+		44AE9994EA994A6A012B21C7 /* Pods-Wella.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wella.2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wella.2/Pods-Wella.2.debug.xcconfig"; sourceTree = "<group>"; };
+		D820267D21803F3A005042AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D820267F218041A5005042AB /* Wella.2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wella.2.entitlements; sourceTree = "<group>"; };
+		D8202682218079C4005042AB /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D8204FCB21660805007BF517 /* workshoplistdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workshoplistdata.swift; sourceTree = "<group>"; };
+		D8257AEF215E760B00993DEE /* Dtrlistcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dtrlistcell.swift; sourceTree = "<group>"; };
+		D8257AF1215E771C00993DEE /* dtrlistdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dtrlistdata.swift; sourceTree = "<group>"; };
+		D82586AD21677F8600ED5785 /* Salontracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salontracking.swift; sourceTree = "<group>"; };
+		D8277303214FB473008A8032 /* BaseActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseActivity.swift; sourceTree = "<group>"; };
+		D8277305214FCC34008A8032 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D82F110F215B72A8000A2823 /* Maxlength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maxlength.swift; sourceTree = "<group>"; };
+		D82F1111215B9B83000A2823 /* Dropdowns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dropdowns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85250A2215CE5FF00A51F85 /* ExecuteApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecuteApi.swift; sourceTree = "<group>"; };
+		D85AD91122816297001871DF /* Dtrcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dtrcell.swift; sourceTree = "<group>"; };
+		D85AD91322817090001871DF /* InsideDtradapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideDtradapter.swift; sourceTree = "<group>"; };
+		D864DFB7216B8B9D006D8B48 /* splashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashViewController.swift; sourceTree = "<group>"; };
+		D864DFB9216B8F7F006D8B48 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		D86550C621687E7A00262740 /* salontrackinglistdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salontrackinglistdata.swift; sourceTree = "<group>"; };
+		D86550C821687EDE00262740 /* salontrackingcellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salontrackingcellTableViewCell.swift; sourceTree = "<group>"; };
+		D86CE71C21566FB90093317D /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86EA47725F6381C009344DF /* MarketVisitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketVisitViewController.swift; sourceTree = SOURCE_ROOT; };
+		D86F282C215FA2BF00E6574E /* MyStylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStylistCell.swift; sourceTree = "<group>"; };
+		D86F282E215FA3B200E6574E /* MyStylistCelldata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStylistCelldata.swift; sourceTree = "<group>"; };
+		D870988A25ECCEDE003CE734 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D870988D25ED1153003CE734 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D87430ED2613384D0027B8EA /* newicon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newicon.jpeg; sourceTree = "<group>"; };
+		D874C2E325FCAA6300CC4916 /* MyVirtualTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVirtualTrainingViewController.swift; sourceTree = "<group>"; };
+		D874C2E525FCAAEB00CC4916 /* VirtualHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualHeaderTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		D874C2E725FCAB1A00CC4916 /* VirtualLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualLineTableViewCell.swift; sourceTree = "<group>"; };
+		D874C2E925FCAB4400CC4916 /* VirtualHeaderAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualHeaderAdapter.swift; sourceTree = "<group>"; };
+		D874C2EB25FCAB5900CC4916 /* VirtualLineAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualLineAdapter.swift; sourceTree = "<group>"; };
+		D8760DEC2600837C006ABE62 /* WorkshopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		D8760DEE260084A2006ABE62 /* WorkshopListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopListAdapter.swift; sourceTree = "<group>"; };
+		D8764D8D25CA7046009DFC54 /* HotDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDayViewController.swift; sourceTree = "<group>"; };
+		D87FBB8625F73A0100FB416B /* MyInSalonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInSalonViewController.swift; sourceTree = SOURCE_ROOT; };
+		D87FF75525CBFDBC004BF50A /* HotDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDayCell.swift; sourceTree = "<group>"; };
+		D883253825F53A130042355C /* HotDayListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDayListAdapter.swift; sourceTree = "<group>"; };
+		D883892E2611C472004E7200 /* PlannedForWorkshopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedForWorkshopViewController.swift; sourceTree = SOURCE_ROOT; };
+		D88A901F260D0BE400D8A174 /* DIYCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYCalendarCell.swift; sourceTree = "<group>"; };
+		D89313F82611E12700F5CB0E /* PlannnedInSalonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannnedInSalonViewController.swift; sourceTree = "<group>"; };
+		D89376AB25D691DD0088F2D3 /* EditStylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStylistViewController.swift; sourceTree = "<group>"; };
+		D8949B652601BFC60058F174 /* FSCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalendarViewController.swift; sourceTree = "<group>"; };
+		D8971DDD25F7C09F004D8BCA /* CalendarNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarNewViewController.swift; sourceTree = "<group>"; };
+		D8971DDF25F7EA65004D8BCA /* InSalonWorkshopHeaderAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InSalonWorkshopHeaderAdapter.swift; sourceTree = "<group>"; };
+		D8971DE125F7EA84004D8BCA /* InSalonLineAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InSalonLineAdapter.swift; sourceTree = "<group>"; };
+		D8971DE325F7EAAF004D8BCA /* InSalonHeaderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InSalonHeaderTableView.swift; sourceTree = "<group>"; };
+		D8971DE525F7EAEC004D8BCA /* InSalonLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InSalonLineTableViewCell.swift; sourceTree = "<group>"; };
+		D897F34025FBF76C003DA84C /* MyWorkshopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkshopViewController.swift; sourceTree = SOURCE_ROOT; };
+		D898911426109EC300A51B15 /* PlannedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedTableViewCell.swift; sourceTree = "<group>"; };
+		D89891162610A8BA00A51B15 /* PlannedListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedListAdapter.swift; sourceTree = "<group>"; };
+		D89C594B25BBF97300CC25A7 /* MyActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivity.swift; sourceTree = "<group>"; };
+		D89F8F482164919A00B4C9CB /* workshopcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = workshopcell.swift; sourceTree = "<group>"; };
+		D8A0FE9626035D4E0016551C /* ProdListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdListAdapter.swift; sourceTree = "<group>"; };
+		D8A0FE9826035E780016551C /* UnProdListadapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnProdListadapter.swift; sourceTree = "<group>"; };
+		D8A0FE9A260366B30016551C /* ProductiveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductiveTableViewCell.swift; sourceTree = "<group>"; };
+		D8A0FE9C260367220016551C /* UnProductiveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnProductiveTableViewCell.swift; sourceTree = "<group>"; };
+		D8A0FE9E2603B5DB0016551C /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		D8A5E86C25F249CE00574B36 /* AddStylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddStylistViewController.swift; path = Controllers/AddStylistViewController.swift; sourceTree = SOURCE_ROOT; };
+		D8AD8C5525FF9F4F009DB31E /* CalendarPlannedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalendarPlannedViewController.swift; path = Pods/CalendarPlannedViewController.swift; sourceTree = SOURCE_ROOT; };
+		D8BC74522170650400B37B7E /* systemconfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = systemconfiguration.swift; sourceTree = "<group>"; };
+		D8C19CFD21BFD6FB00C63889 /* ReturnCatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnCatcher.swift; sourceTree = "<group>"; };
+		D8DF1AE92606654400F5E203 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		D8EEB89B25F09D4C006B8462 /* SalonTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SalonTrackingViewController.swift; path = Controllers/SalonTrackingViewController.swift; sourceTree = SOURCE_ROOT; };
+		D8EEB89F25F0E99D006B8462 /* SalonList1Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonList1Adapter.swift; sourceTree = "<group>"; };
+		D8EEB8A125F0EAAC006B8462 /* SalonList2Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonList2Adapter.swift; sourceTree = "<group>"; };
+		D8EEB8A325F0EAF6006B8462 /* SalonList1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonList1TableViewCell.swift; sourceTree = "<group>"; };
+		D8EEB8A525F0EB0B006B8462 /* SalonList2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonList2TableViewCell.swift; sourceTree = "<group>"; };
+		D8F12EF521AF00F100813BED /* Deviceinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deviceinfo.swift; sourceTree = "<group>"; };
+		D8F90F7324C809C500FDC828 /* IOSdropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSdropdown.swift; sourceTree = "<group>"; };
+		F0578DDEA555B506DB1981DC /* Pods_Wella_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wella_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187D61C92129EAE8004E8B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1877AC4321352C0B00B5B7B4 /* Charts.framework in Frameworks */,
+				1877AC4521352C0B00B5B7B4 /* ChartsRealm.framework in Frameworks */,
+				EDB8496B8DDA5B32556BFB61 /* Pods_Wella_2.framework in Frameworks */,
+				D8C9C82C26CFABCA00AF4FDB /* Dropdowns.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1877AC3E21352B1200B5B7B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82F1111215B9B83000A2823 /* Dropdowns.framework */,
+				D86CE71C21566FB90093317D /* DropDown.framework */,
+				1877AC4221352C0B00B5B7B4 /* Charts.framework */,
+				1877AC4421352C0B00B5B7B4 /* ChartsRealm.framework */,
+				1877AC3F21352B1200B5B7B4 /* Charts.framework */,
+				F0578DDEA555B506DB1981DC /* Pods_Wella_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		187D61C32129EAE8004E8B6C = {
+			isa = PBXGroup;
+			children = (
+				187D61CE2129EAE8004E8B6C /* Wella.2 */,
+				187D61CD2129EAE8004E8B6C /* Products */,
+				1837E032213936E7002F9E69 /* app_icon.png */,
+				1837E02E213936E3002F9E69 /* background.png */,
+				1837E02C213936E1002F9E69 /* glassi_effect_tynor.png */,
+				1837E02F213936E3002F9E69 /* internal_background.png */,
+				1837E029213936DD002F9E69 /* login@2x.png */,
+				1837E030213936E5002F9E69 /* logo.jpg */,
+				1837E02D213936E2002F9E69 /* menubar_bg.png */,
+				1837E031213936E6002F9E69 /* navbg.PNG */,
+				1837E034213936E8002F9E69 /* password_icon.png */,
+				1837E033213936E8002F9E69 /* right_angle_img.png */,
+				1837E028213936DC002F9E69 /* splash.png */,
+				1837E02A213936DE002F9E69 /* tynor_glassy.png */,
+				D87430ED2613384D0027B8EA /* newicon.jpeg */,
+				1837E02B213936E0002F9E69 /* user_icon.png */,
+				1877AC3E21352B1200B5B7B4 /* Frameworks */,
+				18AFD5DFE3A8710B996830E1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		187D61CD2129EAE8004E8B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187D61CC2129EAE8004E8B6C /* WellaEducation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187D61CE2129EAE8004E8B6C /* Wella.2 */ = {
+			isa = PBXGroup;
+			children = (
+				D820267F218041A5005042AB /* Wella.2.entitlements */,
+				D88A901A260CFAD700D8A174 /* Calendar */,
+				D8D3B06F25F334F500735B45 /* Model */,
+				D870988C25ED111C003CE734 /* View */,
+				D870988925ECCEB8003CE734 /* Controllers */,
+				D86F282B215F52B900E6574E /* Common Utils */,
+				D86F2829215F519000E6574E /* Table_Cell Classes */,
+				D86F282A215F51E700E6574E /* Table_Cell Adapters */,
+				187D61D12129EAE8004E8B6C /* ViewController.swift */,
+				187D61D32129EAE8004E8B6C /* Main.storyboard */,
+				187D61DB2129EAF1004E8B6C /* Info.plist */,
+				D820267D21803F3A005042AB /* GoogleService-Info.plist */,
+				18CB447C212D43B000EF7032 /* menuViewController.swift */,
+				187D61D62129EAF1004E8B6C /* Assets.xcassets */,
+				18CB4482212D47D600EF7032 /* dashboardViewController.swift */,
+				1837E04421395970002F9E69 /* LaunchScreen.storyboard */,
+				1837E04221393D41002F9E69 /* profileViewController.swift */,
+				187D61CF2129EAE8004E8B6C /* AppDelegate.swift */,
+				187D82DE2139CE6600D78905 /* DTRViewController.swift */,
+				187D82E22139CEAF00D78905 /* MyworkshopViewController.swift */,
+				187D82E42139CEC700D78905 /* MyinsalonViewController.swift */,
+				187D82EC2139EC6800D78905 /* tempViewController.swift */,
+				1865AA80213BC93E00DF5157 /* mystylistViewController.swift */,
+				18D2C07D2154C0CB002EB013 /* addStylist.swift */,
+				D82586AD21677F8600ED5785 /* Salontracking.swift */,
+				D864DFB7216B8B9D006D8B48 /* splashViewController.swift */,
+				D8202682218079C4005042AB /* NotificationController.swift */,
+				D864DFB9216B8F7F006D8B48 /* UIImage+Gif.swift */,
+				D8BC74522170650400B37B7E /* systemconfiguration.swift */,
+			);
+			path = Wella.2;
+			sourceTree = "<group>";
+		};
+		18AFD5DFE3A8710B996830E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44AE9994EA994A6A012B21C7 /* Pods-Wella.2.debug.xcconfig */,
+				339CC10BDDC6E4012BC5B88A /* Pods-Wella.2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D86F2829215F519000E6574E /* Table_Cell Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8760DEC2600837C006ABE62 /* WorkshopTableViewCell.swift */,
+				D89F8F482164919A00B4C9CB /* workshopcell.swift */,
+				D86F282C215FA2BF00E6574E /* MyStylistCell.swift */,
+				187D82EA2139EACE00D78905 /* customCollectionViewCell.swift */,
+				18CB447E212D43C400EF7032 /* menuTableViewCell.swift */,
+				18BE9F0421492A10002A9AF2 /* DashboardTableViewCell.swift */,
+				D8257AEF215E760B00993DEE /* Dtrlistcell.swift */,
+				D86550C821687EDE00262740 /* salontrackingcellTableViewCell.swift */,
+				D85AD91122816297001871DF /* Dtrcell.swift */,
+				D87FF75525CBFDBC004BF50A /* HotDayCell.swift */,
+				D8EEB8A325F0EAF6006B8462 /* SalonList1TableViewCell.swift */,
+				D8EEB8A525F0EB0B006B8462 /* SalonList2TableViewCell.swift */,
+				D8971DE325F7EAAF004D8BCA /* InSalonHeaderTableView.swift */,
+				D8971DE525F7EAEC004D8BCA /* InSalonLineTableViewCell.swift */,
+				D874C2E525FCAAEB00CC4916 /* VirtualHeaderTableViewCell.swift */,
+				D874C2E725FCAB1A00CC4916 /* VirtualLineTableViewCell.swift */,
+				D8A0FE9A260366B30016551C /* ProductiveTableViewCell.swift */,
+				D8A0FE9C260367220016551C /* UnProductiveTableViewCell.swift */,
+				D88A901F260D0BE400D8A174 /* DIYCalendarCell.swift */,
+				D898911426109EC300A51B15 /* PlannedTableViewCell.swift */,
+			);
+			path = "Table_Cell Classes";
+			sourceTree = "<group>";
+		};
+		D86F282A215F51E700E6574E /* Table_Cell Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				187D82E82139DBEC00D78905 /* calendarViewController.swift */,
+				18BE9F08214930C3002A9AF2 /* dashboardlistdata.swift */,
+				D8257AF1215E771C00993DEE /* dtrlistdata.swift */,
+				D86F282E215FA3B200E6574E /* MyStylistCelldata.swift */,
+				D8204FCB21660805007BF517 /* workshoplistdata.swift */,
+				D86550C621687E7A00262740 /* salontrackinglistdata.swift */,
+				D85AD91322817090001871DF /* InsideDtradapter.swift */,
+				D8EEB89F25F0E99D006B8462 /* SalonList1Adapter.swift */,
+				D8EEB8A125F0EAAC006B8462 /* SalonList2Adapter.swift */,
+				D883253825F53A130042355C /* HotDayListAdapter.swift */,
+				D8971DDF25F7EA65004D8BCA /* InSalonWorkshopHeaderAdapter.swift */,
+				D8971DE125F7EA84004D8BCA /* InSalonLineAdapter.swift */,
+				D874C2E925FCAB4400CC4916 /* VirtualHeaderAdapter.swift */,
+				D874C2EB25FCAB5900CC4916 /* VirtualLineAdapter.swift */,
+				D8760DEE260084A2006ABE62 /* WorkshopListAdapter.swift */,
+				D8A0FE9626035D4E0016551C /* ProdListAdapter.swift */,
+				D8A0FE9826035E780016551C /* UnProdListadapter.swift */,
+				D89891162610A8BA00A51B15 /* PlannedListAdapter.swift */,
+			);
+			path = "Table_Cell Adapters";
+			sourceTree = "<group>";
+		};
+		D86F282B215F52B900E6574E /* Common Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D8F12EF521AF00F100813BED /* Deviceinfo.swift */,
+				D82F110F215B72A8000A2823 /* Maxlength.swift */,
+				D8277303214FB473008A8032 /* BaseActivity.swift */,
+				D8277305214FCC34008A8032 /* Constants.swift */,
+				D85250A2215CE5FF00A51F85 /* ExecuteApi.swift */,
+				1870E6F4214BDD4400036200 /* DatabaseConnection.swift */,
+				D8C19CFD21BFD6FB00C63889 /* ReturnCatcher.swift */,
+				D8F90F7324C809C500FDC828 /* IOSdropdown.swift */,
+				D8DF1AE92606654400F5E203 /* SwiftyJSON.swift */,
+			);
+			path = "Common Utils";
+			sourceTree = "<group>";
+		};
+		D870988925ECCEB8003CE734 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D883892E2611C472004E7200 /* PlannedForWorkshopViewController.swift */,
+				D89313F82611E12700F5CB0E /* PlannnedInSalonViewController.swift */,
+				D8A0FE9E2603B5DB0016551C /* MyProfileViewController.swift */,
+				D8949B652601BFC60058F174 /* FSCalendarViewController.swift */,
+				D8AD8C5525FF9F4F009DB31E /* CalendarPlannedViewController.swift */,
+				D897F34025FBF76C003DA84C /* MyWorkshopViewController.swift */,
+				D87FBB8625F73A0100FB416B /* MyInSalonViewController.swift */,
+				D86EA47725F6381C009344DF /* MarketVisitViewController.swift */,
+				D89C594B25BBF97300CC25A7 /* MyActivity.swift */,
+				D8A5E86C25F249CE00574B36 /* AddStylistViewController.swift */,
+				187D82E62139D3E300D78905 /* stylistViewController.swift */,
+				D89376AB25D691DD0088F2D3 /* EditStylistViewController.swift */,
+				D8EEB89B25F09D4C006B8462 /* SalonTrackingViewController.swift */,
+				D870988A25ECCEDE003CE734 /* HomeViewController.swift */,
+				D8764D8D25CA7046009DFC54 /* HotDayViewController.swift */,
+				D874C2E325FCAA6300CC4916 /* MyVirtualTrainingViewController.swift */,
+				D8971DDD25F7C09F004D8BCA /* CalendarNewViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D870988C25ED111C003CE734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D870988D25ED1153003CE734 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D88A901A260CFAD700D8A174 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		D8D3B06F25F334F500735B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187D61CB2129EAE8004E8B6C /* Wella.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187D61DE2129EAF2004E8B6C /* Build configuration list for PBXNativeTarget "Wella.2" */;
+			buildPhases = (
+				EF9B36F4E0FD179D24AEA878 /* [CP] Check Pods Manifest.lock */,
+				187D61C82129EAE8004E8B6C /* Sources */,
+				187D61C92129EAE8004E8B6C /* Frameworks */,
+				187D61CA2129EAE8004E8B6C /* Resources */,
+				A38B6DCD9753372A42B67F1A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wella.2;
+			productName = Wella.2;
+			productReference = 187D61CC2129EAE8004E8B6C /* WellaEducation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187D61C42129EAE8004E8B6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Acxiom;
+				TargetAttributes = {
+					187D61CB2129EAE8004E8B6C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 187D61C72129EAE8004E8B6C /* Build configuration list for PBXProject "Wella.2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187D61C32129EAE8004E8B6C;
+			productRefGroup = 187D61CD2129EAE8004E8B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187D61CB2129EAE8004E8B6C /* Wella.2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187D61CA2129EAE8004E8B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837E03A213936EA002F9E69 /* menubar_bg.png in Resources */,
+				1837E036213936EA002F9E69 /* login@2x.png in Resources */,
+				1837E039213936EA002F9E69 /* glassi_effect_tynor.png in Resources */,
+				1837E03B213936EA002F9E69 /* background.png in Resources */,
+				1837E035213936EA002F9E69 /* splash.png in Resources */,
+				1837E03E213936EA002F9E69 /* navbg.PNG in Resources */,
+				187D61D72129EAF1004E8B6C /* Assets.xcassets in Resources */,
+				D87430EE2613384E0027B8EA /* newicon.jpeg in Resources */,
+				1837E038213936EA002F9E69 /* user_icon.png in Resources */,
+				1837E04521395974002F9E69 /* LaunchScreen.storyboard in Resources */,
+				187D61D52129EAE8004E8B6C /* Main.storyboard in Resources */,
+				1837E041213936EA002F9E69 /* password_icon.png in Resources */,
+				1837E040213936EA002F9E69 /* right_angle_img.png in Resources */,
+				D820267E21803F3A005042AB /* GoogleService-Info.plist in Resources */,
+				1837E03F213936EA002F9E69 /* app_icon.png in Resources */,
+				1837E03D213936EA002F9E69 /* logo.jpg in Resources */,
+				1837E03C213936EA002F9E69 /* internal_background.png in Resources */,
+				1837E037213936EA002F9E69 /* tynor_glassy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A38B6DCD9753372A42B67F1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wella.2/Pods-Wella.2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wella.2/Pods-Wella.2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wella.2/Pods-Wella.2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9B36F4E0FD179D24AEA878 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wella.2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187D61C82129EAE8004E8B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D864DFBA216B8F7F006D8B48 /* UIImage+Gif.swift in Sources */,
+				D897F34125FBF76C003DA84C /* MyWorkshopViewController.swift in Sources */,
+				D8760DED2600837D006ABE62 /* WorkshopTableViewCell.swift in Sources */,
+				D8760DEF260084A2006ABE62 /* WorkshopListAdapter.swift in Sources */,
+				18BE9F09214930C3002A9AF2 /* dashboardlistdata.swift in Sources */,
+				D88A9020260D0BE400D8A174 /* DIYCalendarCell.swift in Sources */,
+				D85AD91222816297001871DF /* Dtrcell.swift in Sources */,
+				D883253925F53A130042355C /* HotDayListAdapter.swift in Sources */,
+				D8DF1AEA2606654400F5E203 /* SwiftyJSON.swift in Sources */,
+				18CB447D212D43B000EF7032 /* menuViewController.swift in Sources */,
+				D8971DDE25F7C09F004D8BCA /* CalendarNewViewController.swift in Sources */,
+				D89376AC25D691DD0088F2D3 /* EditStylistViewController.swift in Sources */,
+				D8EEB8A225F0EAAC006B8462 /* SalonList2Adapter.swift in Sources */,
+				D870988B25ECCEDE003CE734 /* HomeViewController.swift in Sources */,
+				D864DFB8216B8B9D006D8B48 /* splashViewController.swift in Sources */,
+				D8764D8E25CA7046009DFC54 /* HotDayViewController.swift in Sources */,
+				D8EEB8A425F0EAF6006B8462 /* SalonList1TableViewCell.swift in Sources */,
+				D8A0FE9F2603B5DB0016551C /* MyProfileViewController.swift in Sources */,
+				187D82E52139CEC700D78905 /* MyinsalonViewController.swift in Sources */,
+				18D2C07E2154C0CB002EB013 /* addStylist.swift in Sources */,
+				D8202683218079C4005042AB /* NotificationController.swift in Sources */,
+				187D82E92139DBEC00D78905 /* calendarViewController.swift in Sources */,
+				187D82EB2139EACE00D78905 /* customCollectionViewCell.swift in Sources */,
+				D8BC74532170650400B37B7E /* systemconfiguration.swift in Sources */,
+				D8971DE225F7EA84004D8BCA /* InSalonLineAdapter.swift in Sources */,
+				D874C2E425FCAA6300CC4916 /* MyVirtualTrainingViewController.swift in Sources */,
+				D86550C721687E7A00262740 /* salontrackinglistdata.swift in Sources */,
+				187D61D22129EAE8004E8B6C /* ViewController.swift in Sources */,
+				187D82E72139D3E300D78905 /* stylistViewController.swift in Sources */,
+				D82586AE21677F8600ED5785 /* Salontracking.swift in Sources */,
+				D870988E25ED1153003CE734 /* CardView.swift in Sources */,
+				1837E04321393D41002F9E69 /* profileViewController.swift in Sources */,
+				187D82DF2139CE6600D78905 /* DTRViewController.swift in Sources */,
+				D8257AF0215E760B00993DEE /* Dtrlistcell.swift in Sources */,
+				D8971DE425F7EAAF004D8BCA /* InSalonHeaderTableView.swift in Sources */,
+				187D82ED2139EC6800D78905 /* tempViewController.swift in Sources */,
+				D86EA47825F6381C009344DF /* MarketVisitViewController.swift in Sources */,
+				D89891172610A8BA00A51B15 /* PlannedListAdapter.swift in Sources */,
+				D883892F2611C472004E7200 /* PlannedForWorkshopViewController.swift in Sources */,
+				18BE9F0521492A11002A9AF2 /* DashboardTableViewCell.swift in Sources */,
+				D8F90F7424C809C500FDC828 /* IOSdropdown.swift in Sources */,
+				18CB447F212D43C400EF7032 /* menuTableViewCell.swift in Sources */,
+				187D82E32139CEAF00D78905 /* MyworkshopViewController.swift in Sources */,
+				D8277304214FB473008A8032 /* BaseActivity.swift in Sources */,
+				D898911526109EC300A51B15 /* PlannedTableViewCell.swift in Sources */,
+				D86550C921687EDE00262740 /* salontrackingcellTableViewCell.swift in Sources */,
+				D8971DE625F7EAEC004D8BCA /* InSalonLineTableViewCell.swift in Sources */,
+				D8277306214FCC34008A8032 /* Constants.swift in Sources */,
+				1865AA81213BC93E00DF5157 /* mystylistViewController.swift in Sources */,
+				D82F1110215B72A8000A2823 /* Maxlength.swift in Sources */,
+				D8A0FE9B260366B30016551C /* ProductiveTableViewCell.swift in Sources */,
+				187D61D02129EAE8004E8B6C /* AppDelegate.swift in Sources */,
+				D874C2E825FCAB1A00CC4916 /* VirtualLineTableViewCell.swift in Sources */,
+				D8C19CFE21BFD6FB00C63889 /* ReturnCatcher.swift in Sources */,
+				D874C2E625FCAAEB00CC4916 /* VirtualHeaderTableViewCell.swift in Sources */,
+				D86F282F215FA3B200E6574E /* MyStylistCelldata.swift in Sources */,
+				D8A5E86D25F249CF00574B36 /* AddStylistViewController.swift in Sources */,
+				1870E6F5214BDD4500036200 /* DatabaseConnection.swift in Sources */,
+				D8949B662601BFC60058F174 /* FSCalendarViewController.swift in Sources */,
+				D85AD91422817090001871DF /* InsideDtradapter.swift in Sources */,
+				D85250A3215CE5FF00A51F85 /* ExecuteApi.swift in Sources */,
+				D8257AF2215E771C00993DEE /* dtrlistdata.swift in Sources */,
+				D8A0FE9926035E780016551C /* UnProdListadapter.swift in Sources */,
+				D8A0FE9D260367220016551C /* UnProductiveTableViewCell.swift in Sources */,
+				D8971DE025F7EA65004D8BCA /* InSalonWorkshopHeaderAdapter.swift in Sources */,
+				D8A0FE9726035D4E0016551C /* ProdListAdapter.swift in Sources */,
+				D89C594C25BBF97300CC25A7 /* MyActivity.swift in Sources */,
+				D874C2EA25FCAB4400CC4916 /* VirtualHeaderAdapter.swift in Sources */,
+				D874C2EC25FCAB5900CC4916 /* VirtualLineAdapter.swift in Sources */,
+				D8F12EF621AF00F100813BED /* Deviceinfo.swift in Sources */,
+				D86F282D215FA2BF00E6574E /* MyStylistCell.swift in Sources */,
+				D89313F92611E12700F5CB0E /* PlannnedInSalonViewController.swift in Sources */,
+				D87FBB8725F73A0100FB416B /* MyInSalonViewController.swift in Sources */,
+				D87FF75625CBFDBC004BF50A /* HotDayCell.swift in Sources */,
+				D8204FCC21660805007BF517 /* workshoplistdata.swift in Sources */,
+				D89F8F492164919A00B4C9CB /* workshopcell.swift in Sources */,
+				D8EEB8A025F0E99D006B8462 /* SalonList1Adapter.swift in Sources */,
+				D8AD8C5625FF9F4F009DB31E /* CalendarPlannedViewController.swift in Sources */,
+				18CB4483212D47D600EF7032 /* dashboardViewController.swift in Sources */,
+				D8EEB8A625F0EB0B006B8462 /* SalonList2TableViewCell.swift in Sources */,
+				D8EEB89C25F09D4C006B8462 /* SalonTrackingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187D61D32129EAE8004E8B6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187D61D42129EAE8004E8B6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187D61DC2129EAF2004E8B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187D61DD2129EAF2004E8B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187D61DF2129EAF2004E8B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AE9994EA994A6A012B21C7 /* Pods-Wella.2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Wella.2/Wella.2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = T3YWA5D992;
+				INFOPLIST_FILE = Wella.2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acxiom.wellaeducation;
+				PRODUCT_NAME = WellaEducation;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wella.2/Wella.2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187D61E02129EAF2004E8B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339CC10BDDC6E4012BC5B88A /* Pods-Wella.2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Wella.2/Wella.2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = T3YWA5D992;
+				INFOPLIST_FILE = Wella.2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acxiom.wellaeducation;
+				PRODUCT_NAME = WellaEducation;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wella.2/Wella.2-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187D61C72129EAE8004E8B6C /* Build configuration list for PBXProject "Wella.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187D61DC2129EAF2004E8B6C /* Debug */,
+				187D61DD2129EAF2004E8B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187D61DE2129EAF2004E8B6C /* Build configuration list for PBXNativeTarget "Wella.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187D61DF2129EAF2004E8B6C /* Debug */,
+				187D61E02129EAF2004E8B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187D61C42129EAE8004E8B6C /* Project object */;
+}
